@@ -1,0 +1,13 @@
+name: Reach
+author: KrHanwoo
+version: '${project.version}'
+main: com.hanwoo.reach.Reach
+api-version: 1.14
+
+commands:
+  reach:
+    permission: reach.command
+
+permissions:
+  reach.command:
+    default: op
